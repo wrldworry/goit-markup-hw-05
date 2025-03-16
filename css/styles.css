@@ -611,7 +611,7 @@ margin: 0 auto 24px;
   }
 
   .subscribe-container {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
   }
   
@@ -625,7 +625,7 @@ margin: 0 auto 24px;
   }
   
   .subscribe-form {
-    display: flex;
+    display: inline-flex;
     gap: 24px;
   }
   
@@ -650,7 +650,7 @@ margin: 0 auto 24px;
   .subscribe-button {
     min-width: 165px;
     height: 40px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
@@ -700,7 +700,7 @@ margin: 0 auto 24px;
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     background-color: #e7e9fc;
@@ -736,7 +736,7 @@ margin: 0 auto 24px;
 }
 
 .mod-form {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
 }
 
