@@ -354,7 +354,82 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-container">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input 
+                class="subscribe-input" 
+                type="email" 
+                name="email" 
+                placeholder="E-mail" 
+              />
+            </label>
+            <button class="subscribe-button" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <div class="mod-bg">
+      <div class="mod-win">
+          <button type="button" class="mod-cls-btn">
+              <svg class="mod-cls-ico" width="8" height="8">
+                  <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+              </svg>
+          </button>
+          <p class="mod-txt">Leave your contacts and we will call you back</p>
+          <form class="mod-form">
+              <div class="mod-field">
+                  <label for="user-name" class="mod-label">Name</label>
+                  <div class="mod-input-wrap">
+                      <input type="text" name="user-name" id="user-name" class="mod-input">
+                      <svg class="mod-ico" width="18" height="24">
+                          <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                      </svg>
+                  </div>
+              </div>
+              <div class="mod-field">
+                  <label for="user-phone" class="mod-label">Phone</label>
+                  <div class="mod-input-wrap">
+                      <input type="text" name="user-phone" id="user-phone" class="mod-input">
+                      <svg class="mod-ico" width="18" height="24">
+                          <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+                      </svg>
+                  </div>
+              </div>
+              <div class="mod-field">
+                  <label for="user-email" class="mod-label">Email</label>
+                  <div class="mod-input-wrap">
+                      <input type="text" name="user-email" id="user-email" class="mod-input">
+                      <svg class="mod-ico" width="18" height="24">
+                          <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+                      </svg>
+                  </div>
+              </div>
+              <div class="mod-field-com">
+                  <label for="user-comment" class="mod-label">Comment</label>
+                  <textarea name="user-comment" id="user-comment" class="mod-com" placeholder="Text input"></textarea>
+              </div>
+              <div class="mod-check">
+                  <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="mod-hid">
+                  <label for="user-privacy" class="mod-check-lab">
+                      <span class="mod-check-own">
+                          <svg class="mod-check-ico" width="10" height="8">
+                              <use href="./images/icons.svg#icon-Vector"></use>
+                          </svg>
+                      </span>
+                      I accept the terms and conditions of the <a href="" class="mod-link">Privacy Policy</a>
+                  </label>
+              </div>
+              <button type="submit" class="mod-sub-btn">Send</button>
+          </form>
+      </div>
+  </div>
 </body>
 </html>
